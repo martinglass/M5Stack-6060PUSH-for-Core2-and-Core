@@ -55,7 +55,7 @@
 * First, the haptic motor in the Core2 obstructs the ancilliary board. 
 * Secondly, because the motor has a metal case, there is a risk of shorting the 9V-24V power line with M-Bus pins 16 and 17.
 * 
-* In order to use the PLC Proto Mobule, you need to connect the ancilliary board by wire, and keep it away from the M-Bus connector.
+* In order to use the PLC Proto Mobule, you need to connect the ancillary board by wire, and keep it away from the M-Bus connector.
 * 
 * As mentioned, you'll need to wire up pins 16 and 17 on the PLC Proto Module ancillary board to the Core2 M-bus.
 * You'll also need to wire that connects GND between the ancillary board and the Core2 (you can use the M-Bus GND pin or any other GND pin).
