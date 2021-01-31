@@ -13,7 +13,8 @@
 // Find Zero Position - ID???Z
 // Set Feed Speed - ID???:F????
 // Read Busy ? - ID???I
-
+// 
+// What are the calibration commands, eg Steps/mm?
 
 /*
  * Copyright © 2021 <M. Glass>
@@ -44,6 +45,8 @@
 * The 6060Push takes its power from a 9V-24V supply (5mm socket).
 * The same power (at 9V-24V) is connected to the orange HT3.96 RS485 sockets on the 6060Push
 * 
+* The 4 x screws of the baseplate on the moving axis of 6060PUSH are UNC 1/4 inch thread, not M3 nor M4.
+* 
 * To connect between the Core2/Core and the 6060Push the recommendation is to use the PLC Proto Module.
 * 
 * The PLC Proto Module has a small RS485-to-TTL ancillary PCB board included, 
@@ -66,8 +69,8 @@
 * This isn't obvious to do. 
 * 
 * There are several places to connect to the 5V supply on the PLC Proto module. But you need to wire into the 5V input pin inside the Core2, 
-* which is one of the pins on the 4-pin connector inside the Core2, next to the USB connector. the pins are marked DP,DM,GND and 5V. 
-* You want the 5V pin (and connect that by a wire to a 5V supply pin on the PLC Proto module board.
+* which is one of the pins on the 4-pin connector inside the Core2, next to the USB connector. The pins are marked DP,DM,GND and 5V. 
+* You want to connect that by a wire to a 5V supply pin on the PLC Proto module board.
 * 
 * It may be better just to get the M5Stack RS485-to-TTL converter Unit instead of the PLC Proto Module !!!
 * https://m5stack.com/collections/m5-unit/products/isolated-rs485-unit
