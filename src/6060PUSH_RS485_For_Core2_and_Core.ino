@@ -70,7 +70,7 @@
 * 
 * There are several places to connect to the 5V supply on the PLC Proto module. But you need to wire into the 5V input pin inside the Core2, 
 * which is one of the pins on the 4-pin connector inside the Core2, next to the USB connector. The pins are marked DP,DM,GND and 5V. 
-* You want to connect that by a wire to a 5V supply pin on the PLC Proto module board.
+* You want to connect from the 5V input pin on the Core2 by a wire to a 5V supply pin on the PLC Proto module board.
 * 
 * It may be better just to get the M5Stack RS485-to-TTL converter Unit instead of the PLC Proto Module !!!
 * https://m5stack.com/collections/m5-unit/products/isolated-rs485-unit
